@@ -1,5 +1,5 @@
 var googleSearch = require("./google.js");
 
 googleSearch("microsoft", function(res){
-    console.log(res[0]);
+    console.log(res.join("\n"));
 });
