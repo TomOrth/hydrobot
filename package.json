@@ -22,6 +22,6 @@
     "discord.js": "^8.1.0",
     "fs": "0.0.2",
     "meme-maker": "^2.1.2",
-    "requests": "^0.1.7"
+    "request": "^2.74.0"
   }
 }
