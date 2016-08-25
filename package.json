@@ -21,6 +21,7 @@
     "cheerio": "^0.20.0",
     "discord.js": "^8.1.0",
     "fs-extra": "^0.30.0",
+    "google-search-scraper": "^0.0.2",
     "meme-maker": "^2.1.2",
     "request": "^2.74.0",
     "unirest": "^0.5.1",

@@ -6,7 +6,6 @@ General commands:
 
 
 lookup <search-query>: search google for a top result link
-video <search-query>: search youtube for videos
 translate <text>: translates given text to english
 meme <content>: creates a meme with the content being formatted as such: template-top text-bottom text
 
