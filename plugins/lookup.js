@@ -1,10 +1,9 @@
 var googleSearch = require("../scrapers/google");
 module.exports = {
     main: function(bot, message){
-        var content = message.content;
-        var search = content.substring(content.indexOf(" lookup ") + 1);
+        var search = message.content;
         console.log(search);
-        bot.sendMessage(message, "googling" function(err, message){
+        bot.sendMessage(message, "googling", function(err, message){
             googleSearch(search, function(res){
                 bot.updateMessage(message, res[0]);
             });

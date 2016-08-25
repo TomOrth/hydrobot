@@ -1,0 +1,40 @@
+```xl
+
+Hydro is a mult-purpose bot for enriching your discord experience!
+
+General commands:
+
+
+lookup <search-query>: search google for a top result link
+video <search-query>: search youtube for videos
+translate <text>: translates given text to english
+meme <content>: creates a meme with the content being formatted as such: template-top text-bottom text
+
+Meme templates:
+aa - awesome alien
+archer - archer(cartoon)
+around - only one around here
+brian - bad luck brian (poor brian)
+dawg - yo dawg
+everywhere - "X, X everywhere" - buzz lightyear
+evil - mr evil
+faceplam - obama facepalm
+grandma - grandma at computer
+greg - some dude smiling
+hart - kevin hart
+joker - batman villian
+leo - leonard dicaprio
+matrix - what if I told you...
+maury - maury lie detector
+odns - one does not simply
+putin - russian dude
+tenguy - high looking guy
+wonka - willy wonka
+
+Adminstrative commands (requires the command user to have 'Bot Commander' Role:
+mute <user>: mutes a given user (requires a role 'muted' to be present')
+unmute <user>: opposite of mute command
+kick <user>: kicks a given user
+ban <user>: bans a given user
+
+```

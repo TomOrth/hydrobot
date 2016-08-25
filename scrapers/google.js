@@ -2,7 +2,6 @@
 var request = require("request"),
     cheerio = require("cheerio");
 var url = "https://www.google.com/search?q=";
-
 //main function
 function googleSearch(search, callback){
     //make a GET request to google with a q set to the search criteria
@@ -17,7 +16,9 @@ function googleSearch(search, callback){
             var link = data.children().first();
             var href = link.attr("href");
             //push link to array
-            res.push(href.substring(href.indexOf("=") + 1, href.indexOf("&sa")));
+            if(!href.startsWith("/search"))
+                res.push(href.substring(href.indexOf("=") + 1, href.indexOf("&sa")));
+             
         });
         //perform callback function
         callback(res);
