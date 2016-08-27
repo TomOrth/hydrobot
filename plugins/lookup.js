@@ -1,7 +1,7 @@
 var google = require("google-search-scraper");
 module.exports = {
     main: function(bot, message){
-       google.resultsPerPage = 25;
+        var arr = [];
         var search = message.content;
         console.log(search);
         var options = {
@@ -11,7 +11,8 @@ module.exports = {
         bot.sendMessage(message, "Googling....", function(err, message){
             google.search(options, function(err, res){
                 if(err) console.log(err);
-                bot.updateMessage(message, res);
+                arr.push(res);
+                bot.updateMessage(message, arr[0]);
             });
         });
     }
