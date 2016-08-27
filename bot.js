@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 const Discord = require("discord.js");
 const fse = require("fs-extra");
 const PREFIX = "hey hydro, "
@@ -10,13 +10,13 @@ function loadPlugins(){
     console.log(__dirname + "/plugins");
     let files = fse.readdirSync(__dirname + "/plugins", "utf8");
     for(let plugin of files){
-        if(plugin.endsWith('.js')){
+        if(plugin.endsWith(".js")){
             console.log(plugin.slice(0, -3));
             plugins.set(plugin.slice(0, -3), require(__dirname + "/plugins/" + plugin));
             console.log("Map: " + plugins.has(plugin.slice(0,-3)));
         }else{
             console.log(plugin);
-        }      
+        }
     }
 }
 

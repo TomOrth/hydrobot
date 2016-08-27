@@ -1,4 +1,4 @@
-var google = require('google-search-scraper');
+var google = require("google-search-scraper");
 module.exports = {
     main: function(bot, message){
        google.resultsPerPage = 25;

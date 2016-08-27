@@ -1,12 +1,12 @@
 var fse = require("fs-extra");
-var memeMaker = require('meme-maker');
+var memeMaker = require("meme-maker");
 
 module.exports = {
     main: function(bot, message){
         var content = message.content,
             text = content.split("-");
         var options = {
-            image: __dirname + '/templates/' + text[0] + '.jpg',
+            image: __dirname + "/templates/" + text[0] + ".jpg",
             outfile: __dirname + "/" + message.author.name + "-" + message.server + ".jpg",
             topText: text[1],
             bottomText: text[2]
@@ -18,6 +18,6 @@ module.exports = {
                 if(err) console.log(err);
             });
         });
-        
+
     }
 }
