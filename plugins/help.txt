@@ -22,7 +22,7 @@ Templates: tenguy, afraid, older, aag, tried, biw,
            interesting, toohigh, bs, both, winter, xy, buzz, yodawg,
            yuno, yallgot, bad, elf, chosen
 
-Adminstrative commands (requires the command user to have 'Bot Commander' Role:
+Adminstrative commands (requires the command user to have 'Bot Commander' Role):
 mute <user>: mutes a given user (requires a role 'muted' to be present')
 unmute <user>: opposite of mute command
 kick <user>: kicks a given user
