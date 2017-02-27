@@ -1,3 +1,4 @@
+//do not use this lib in actual use, it is bad
 var google = require('google-search-scraper');
 module.exports = {
 	main: function(bot, message) {
